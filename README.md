@@ -1,2 +1,0 @@
-# crgshell.github.io
-bootcamp
