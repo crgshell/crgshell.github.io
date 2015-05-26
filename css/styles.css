@@ -1,0 +1,98 @@
+body {
+  font-family: 'courier new', courier, sans-serif;
+  color: #555;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+a {
+	text-decoration: none;
+	color: #2ec371;
+}
+h1 {
+	font-size: 24px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 14px;
+	font-weight: 500;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+blockquote {
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+pre {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#top {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	background-color: #cecece;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	 background: url(../img/hero-bg-dark.jpg) no-repeat center center;  
+	/* background: url(../img/mtk1.jpg) no-repeat center center; */
+	/* background: url(../img/imageMain_65_846.jpg) no-repeat center center; */
+	
+	background-size: cover; 
+
+
+}
+
+
+
+#top h1 {
+
+   color: #2ec371;
+   font-weight: 800;
+
+}
+
+#top h3{
+
+  line-height: 1.2em;
+  font-weight: 200;
+  color: #fefefe;
+  text-shadow: -2px -1px 22px rgba(150, 154, 154, 1);
+ 
+}
+
+.skinny {
+
+  color: #fefefe;
+  font-weight: 100;
+}
+
+.container{
+	width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+#ryan-image{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
