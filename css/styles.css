@@ -291,6 +291,11 @@ p {
 	background-color: #357ebd;
 }
 
+#submit {
+	background-color: #2ec371;
+	color: #fefefe;
+
+}
 
 #footer {
 	position: fixed;
