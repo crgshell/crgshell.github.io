@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
    <!-- <link rel="stylesheet" type="text/css" href="custom.css"> -->
+   <link rel="stylesheet" type="text/css" href="css/animate.css"> 
    <link rel="stylesheet" type="text/css" href="css/reset.css">
    <link href="css/styles.css" rel="stylesheet">
 
@@ -17,17 +18,25 @@
 
 <body>
 
-<header>
+<header id="header">
+
 	<div class= "container clearfix">
-	<p id="header-title">Welcome to konoctifarms.com</p>
+	
+	<!-- <p id="header-title">Welcome to konoctifarms.com</p> -->
+	<a  id="bio-med" class="navbar-brand" href="index.html"><img src="img/bio-med.jpg" alt="bio-medLogo"></a>
+
+
 	<ul id="header-nav">
 	<li><a href="#">About</a></li>
 	<li><a href="#">Cooperatives</a></li>
 	<li><a href="">Partners</a></li>
 	<li><a href="#">Contact</a></li>
-
     </ul>
+
+
+
    </div>
+
 </header>
 
 
@@ -37,20 +46,20 @@
 	
 <h3>konctifarms.com</h3>
 
-<form>
+<!--<form>
 	<fieldset>
 		<input type="text" name="name" id="name" value="" tabindex="1">
 		 <input type="submit" value="Submit">
 	</fieldset>
-</form>
-</section>
+</form> -->
+</section> 
 
-<section>
+<!--<section>
 	<div class="container">
 
 	<img id = "studentPhoto" src="img/studentPhoto.jpg" alt="studentPhoto"> 
 
-	<!--<img id="ryan-image" src="img/ryan-hat.png" alt="Ryan"> -->
+	<
 
 	<p>
 		Im the Founder at <a href="http://solipsislab.com" target="blank">Solipsis Lab</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -72,7 +81,7 @@
 	</P>
 		
 	</div>
-</section>
+</section> -->
 
 <section id="bottom">
   <div class="container">
@@ -81,15 +90,15 @@
   		<div class="one-half">
        <!--   <img src="img/mbe-logo.png"> -->
           
-           <img src="img/diesel-strain.jpg">
-  		 <h2>Maker-Based Education</h2>
+           <img src="img/sd.png" class="img-responsive" data-anijs="if: mouseover, do: pulse animated to: $children">
+  		 <h2>Sour Diesel</h2>
   		 <p>Top-rated front-end web development courses. 40,000+ students. 5-star reviews. Learn HTML & CSS in less than a month!</p>
 		<a class="btn" href="http://makerbased.com" target="_blank">Learn More</a>
   		 </div><!--
   		 --><div class="one-half"> 
   		<!-- <img src="img/fedora_logo.png"> -->
-  		  <img src="img/gsc-strain.png">
-  		 <h2>Fedora</h2>
+  		  <img src="img/gsc.png " class="img-responsive" data-anijs="if: mouseover, do: rubberBand animated">
+  		 <h2>Girl Scout Cookies</h2>
   		 <p>The fastest-growing Online Education platform. Powering over 5,000 courses and 500,000 students learning online.</p>
 		 <a class="btn" href="http://usefedora.com" target="_blank">Learn More</a>
   		 </div>
@@ -102,7 +111,7 @@
   <form>
 	<fieldset>
 		<input type="text" name="name" id="name" value="" tabindex="1" placeholder="Enter Email Address">
-		 <input type="submit" value="Submit">
+		 <input  id="submit" type="submit" value="Submit">
 	</fieldset>
 </form>
 </div>
@@ -110,9 +119,26 @@
 	
 </section>
 
-<a id="to-the-top" href="#top">top</a>
 
-<h2></h2>
+
+<section>
+<footer id="footer">
+	<p>&copy; 2015 solipsislab.com<p>
+</footer>
+
+</section>
+<a id="to-the-top" href="#header">top</a>
+
+  <!-- AniJS core library -->
+  <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+  <script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+  <!-- The scrollreveal helper
+  <script src="http://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	
 </body>
 </html>

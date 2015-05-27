@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: 500;
 }
 h3 {
@@ -64,7 +64,8 @@ section {
 }
 
 #header-nav {
-	float: right;
+  float: right;
+  margin-top: 26px;
 }
 
 #header-nav li {
@@ -83,8 +84,17 @@ section {
 
 
 
+.navbar-brand {
+	float: left;
+	margin: 0;
+	height: 100px;
 
 
+}
+
+#bio-med{
+	max-height: 100px;
+}
 
 /* Top Section Styling */
 
@@ -92,8 +102,9 @@ section {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
 	background-color: #cecece;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	margin-top: 20px;
 	/* background: url(../img/hero-bg-dark.jpg) no-repeat center center; */
 	/* background: url(../img/mtk1.jpg) no-repeat center center; */
 	/* background: url(../img/imageMain_65_846.jpg) no-repeat center center; */
@@ -133,14 +144,14 @@ section {
   font-weight: 100;
 }
 
-.container{
+/*.container{
 	width: 970px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
-}
+} */
 
 p {
 	margin-bottom: 20px;
@@ -184,7 +195,7 @@ p {
 /* Bottom Section */
 
 #bottom {
-	background-color: #ccc;
+	background-color: #fefefe;
 	text-align: center;
 }
 
@@ -203,7 +214,7 @@ p {
 
 
 #bottom img {
-  max-height: 150px;
+  max-height: 250px;
   border-radius: 10px;
 }
 
@@ -281,6 +292,18 @@ p {
 }
 
 
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	clear:both;
+	max-height:100px;
+	background-color: #ececec;
+
+}
+
+
+
 /* clearfix */
 .row:before,
 .row:after, .clearfix:before, .clearfix:after {
@@ -293,5 +316,72 @@ p {
 .row, .clearfix {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 740px;
+  }
+
+  header {
+    font-size: 14px;
+  }
+
+  #header-nav li a {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  #top fieldset {
+    width: 95%;
+  }
+
+  #header-title {
+    float: none;
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #header-nav {
+    float: none;
+    clear: left;
+    font-size: 12px;
+
+  }
+
+  #header-nav li a {
+    padding: 12px;
+  }
+
+  .one-half {
+    width: 98%;
+  }
+
+  #submit {
+  	display: block;
+    margin: 10px auto;
+}
+  }
+}
+
 
 
