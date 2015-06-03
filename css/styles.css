@@ -84,6 +84,8 @@ section {
 
 
 
+
+
 .navbar-brand {
 	float: left;
 	margin: 0;
@@ -250,9 +252,9 @@ p {
 #bottom input[type="submit"] {
  padding: 15px;
  background-color: #2ec371;
-  border: 1px solid #2ec371;
+ border: 1px solid #2ec371;
  border-radius: 5px;
- font-size: 15px;
+ font-size: 20px;
 }
 
 #to-the-top {
@@ -281,21 +283,27 @@ p {
 
 .btn {
   background-color: #428bca;
-  border: 1px solid #357ebd;
+  /*border: 1px solid #357ebd; */
+
+
   color: #fefefe;
   padding: 5px 10px;
   border-radius: 5px;
 }
 
 .btn:hover {
-	background-color: #357ebd;
+	/*background-color: #357ebd; */
+	background-color: #2ec371;
 }
 
 #submit {
 	background-color: #2ec371;
+	border: 1px solid #2ec371;
 	color: #fefefe;
+	font-family: 'courier new', courier, sans-serif;
 
 }
+
 
 #footer {
 	position: fixed;
@@ -386,7 +394,7 @@ p {
     margin: 10px auto;
 }
   }
-}
+
 
 
 

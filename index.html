@@ -27,15 +27,14 @@
 
 
 	<ul id="header-nav">
-	<li><a href="#">About</a></li>
-	<li><a href="#">Cooperatives</a></li>
-	<li><a href="">Partners</a></li>
-	<li><a href="#">Contact</a></li>
+	<li><a href="#" data-anijs="if: mouseover, do: rubberBand animated">About</a></li>
+	<li><a href="#" data-anijs="if: mouseover, do: rubberBand animated">Cooperatives</a></li>
+	<li><a href="#" data-anijs="if: mouseover, do: rubberBand animated">Partners</a></li>
+	<li><a href="#" data-anijs="if: mouseover, do: rubberBand animated">Contact</a></li>
+	
     </ul>
+ </div>
 
-
-
-   </div>
 
 </header>
 
@@ -85,7 +84,7 @@
 
 <section id="bottom">
   <div class="container">
-  	<h2>What We're Growing Thes Season</h2>
+  	<h2>What We're Growing This Season</h2>
   	<div class="row">
   		<div class="one-half">
        <!--   <img src="img/mbe-logo.png"> -->
@@ -111,7 +110,7 @@
   <form>
 	<fieldset>
 		<input type="text" name="name" id="name" value="" tabindex="1" placeholder="Enter Email Address">
-		 <input  id="submit" type="submit" value="Submit">
+		 <input  id="submit" type="submit" value="Submit" data-anijs="if: mouseover, do: pulse animated to: $children">
 	</fieldset>
 </form>
 </div>
@@ -127,7 +126,7 @@
 </footer>
 
 </section>
-<a id="to-the-top" href="#header">top</a>
+<a id="to-the-top" href="#header" data-anijs="if: mouseover, do: pulse animated to: $children">top</a>
 
   <!-- AniJS core library -->
   <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
